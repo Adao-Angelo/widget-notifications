@@ -2,7 +2,7 @@ import Widget from "@/components/widget";
 
 export default function Home() {
   return (
-    <main className="h-screen bg-black flex items-center justify-center text-zinc-50">
+    <main className="h-screen bg-zinc-50 dark:bg-black flex items-center justify-center text-zinc-800 dark:text-zinc-50">
       <Widget />
     </main>
   );
