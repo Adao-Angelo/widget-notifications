@@ -20,7 +20,6 @@ export default function Widget() {
           <Notification.Root>
             <Notification.Icon icon={Rocket} />
             <Notification.Content text="A file server is a computer or device that has one or more hard drives" />
-            <Notification.Actions />
           </Notification.Root>
           <Notification.Root>
             <Notification.Icon icon={Rocket} />
