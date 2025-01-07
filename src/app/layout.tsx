@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Widget notifications",
   description: "This is widget notification page",
+  icons: {
+    icon: "/",
+  },
 };
 
 export default function RootLayout({

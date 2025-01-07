@@ -1,4 +1,4 @@
-import NotificationActions from "./NotificationActions";
+import { NotificationActions } from "./NotificationActions";
 import NotificationContent from "./NotificationContent";
 import NotificationIcon from "./NotificationIcon";
 import NotificationRoot from "./NotificationRoot";
