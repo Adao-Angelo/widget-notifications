@@ -40,7 +40,6 @@ export default function Widget() {
 
         <div className="divide-y-2 divide-zinc-200 dark:divide-zinc-950">
           <Notification.Root>
-            <Notification.Icon icon={Rocket} />
             <Notification.Content text="A file server is a computer or device that has one or more hard drives" />
             <Notification.Actions.Root>
               <Notification.Actions.Submit />
@@ -49,6 +48,10 @@ export default function Widget() {
           <Notification.Root>
             <Notification.Icon icon={Rocket} />
             <Notification.Content text="A file server is a computer or device that has one or more hard drives" />
+            <Notification.Actions.Root>
+              <Notification.Actions.Submit />
+              <Notification.Actions.Cancel></Notification.Actions.Cancel>
+            </Notification.Actions.Root>
           </Notification.Root>
           {/* <Notification
             icon={Rocket}
